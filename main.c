@@ -6,7 +6,7 @@
 #define RED 204, 0, 0, SDL_ALPHA_OPAQUE
 #define BROWN 153, 153, 102, SDL_ALPHA_OPAQUE
 #define ORANGE 255, 153, 0, SDL_ALPHA_OPAQUE
-#define YELLOW 179, 60, 0, SDL_ALPHA_OPAQUE
+#define BROWN_ISH 179, 60, 0, SDL_ALPHA_OPAQUE
 
 #define FPS 15
 
@@ -362,7 +362,7 @@ void initialize_walls(Snake *coral) {
 }
 
 void draw_walls(SDL_Renderer *rend) {
-	SDL_SetRenderDrawColor(rend, YELLOW);
+	SDL_SetRenderDrawColor(rend, BROWN_ISH);
 	int i;
 	for (i = 0; i < 4; i++)
 		SDL_RenderFillRect(rend, &walls[i]);
