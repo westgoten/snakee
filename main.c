@@ -1,6 +1,5 @@
 #include <SDL.h>
 #include <time.h>
-#include <stdio.h>
 
 // Colors
 #define RED 204, 0, 0, SDL_ALPHA_OPAQUE
