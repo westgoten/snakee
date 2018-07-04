@@ -35,3 +35,7 @@ libraries and to change the Makefile accordingly. See
 
 Feel free to modify and improve this project. Pull requests are welcome 
 :)
+
+## License
+
+See the [LICENSE](LICENSE) file for license rights and limitations.
