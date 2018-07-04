@@ -3,4 +3,4 @@ LDIR = -L./lib
 LIBS = -lmingw32 -lSDL2main -lSDL2
 
 Snakee : main.c
-	gcc $(LDIR) -mwindows -o Snakee main.c $(CFLAGS) $(LIBS)
+	gcc $(LDIR) -mwindows -o ./executable/Snakee main.c $(CFLAGS) $(LIBS)
