@@ -2,7 +2,7 @@
 
 A Snake Game clone built with C and SDL
 
-![img1](./screenshots/1.png)
+![Gameplay](./images/gameplay.gif)
 
 ## How to run the game
 
